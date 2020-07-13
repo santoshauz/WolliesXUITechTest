@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1691383998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "As a Customer, I want to place an order for 2 items",
+        "description": "",
+        "id": "add-2-items-to-the-cart-and-place-an-order;as-a-customer,-i-want-to-place-an-order-for-2-items",
+        "after": [
+          {
+            "result": {
+              "duration": 107455247,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6527916507,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I land on the homepage",
+            "match": {
+              "location": "PlaceOrder.i_land_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13354875756,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Sign in",
+            "match": {
+              "location": "PlaceOrder.i_sign_in()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add 2 items to the cart and Place an Order",
+    "description": "",
+    "id": "add-2-items-to-the-cart-and-place-an-order",
+    "keyword": "Feature",
+    "uri": "PlaceOrder.feature"
+  }
+]
