@@ -9,7 +9,7 @@ Technology Stack
 Features
 Automated smoke test suite to perform End to End Order placement 
 
-1. Test to perform successful Sign in
+1. Perform successful Sign in
 2. Add 2 items to the cart 
 3. Successfully procced to payments
 4. Preform payments and place the order
@@ -21,4 +21,3 @@ RunTestCukes
 
 Reports
 1. Extents report for reporting 
-
